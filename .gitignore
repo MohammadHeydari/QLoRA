@@ -1,0 +1,9 @@
+cat > .gitignore << 'EOF'
+.venv/
+.idea/
+data/
+models/
+__pycache__/
+*.pyc
+CUDA_test.py
+EOF
